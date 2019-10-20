@@ -1,0 +1,10 @@
+Started by user [8mha:////4GqKFCG1ZGIMJ+fLu2lrfFMzlmwwYqX5cBoaFMBrZeqHAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9pKLUNEsLcwC/ZsKPwgAAAA==[0maleh slutski
+Running as SYSTEM
+Building in workspace C:\data\Jenkins\workspace\jenkinsTask3and4
+[jenkinsTask3and4] $ cmd /c call C:\Windows\TEMP\jenkins8876767041155185379.bat
+
+C:\data\Jenkins\workspace\jenkinsTask3and4>ECHO 3 and 4 jenkins tasks 
+3 and 4 jenkins tasks
+
+C:\data\Jenkins\workspace\jenkinsTask3and4>exit 0 
+Finished: SUCCESS

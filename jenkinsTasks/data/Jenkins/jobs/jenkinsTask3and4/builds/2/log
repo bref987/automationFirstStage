@@ -1,0 +1,10 @@
+Started by user [8mha:////4GqKFCG1ZGIMJ+fLu2lrfFMzlmwwYqX5cBoaFMBrZeqHAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9pKLUNEsLcwC/ZsKPwgAAAA==[0maleh slutski
+Running as SYSTEM
+Собирается удаленно на [8mha:////4Gi0RflS8gsYxrys5zDo/UM8UbaS99u7/eCHvX5xV4YGAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKc0pLi7EwAs0iC2cYAAAA=[0mslutski (x86 win7 chorme) in workspace c:\slave\workspace\jenkinsTask3and4
+[jenkinsTask3and4] $ cmd /c call C:\Users\slutski\AppData\Local\Temp\jenkins1515417670339617125.bat
+
+c:\slave\workspace\jenkinsTask3and4>ECHO 3 and 4 jenkins tasks 
+3 and 4 jenkins tasks
+
+c:\slave\workspace\jenkinsTask3and4>exit 0 
+Finished: SUCCESS

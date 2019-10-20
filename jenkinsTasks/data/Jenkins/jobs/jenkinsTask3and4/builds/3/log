@@ -1,0 +1,26 @@
+Started by user [8mha:////4GqKFCG1ZGIMJ+fLu2lrfFMzlmwwYqX5cBoaFMBrZeqHAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9pKLUNEsLcwC/ZsKPwgAAAA==[0maleh slutski
+Running as SYSTEM
+Собирается удаленно на [8mha:////4Gi0RflS8gsYxrys5zDo/UM8UbaS99u7/eCHvX5xV4YGAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKc0pLi7EwAs0iC2cYAAAA=[0mslutski (x86 win7 chorme) in workspace c:\slave\workspace\jenkinsTask3and4
+[jenkinsTask3and4] $ cmd /c call C:\Users\slutski\AppData\Local\Temp\jenkins2030791930474006976.bat
+
+c:\slave\workspace\jenkinsTask3and4>ECHO 3 and 4 jenkins tasks 
+3 and 4 jenkins tasks
+
+c:\slave\workspace\jenkinsTask3and4>exit 0 
+[jenkinsTask3and4] $ cmd.exe /C "c:\apache-maven-3.6.2\bin\mvn.cmd test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.160 s
+[INFO] Finished at: 2019-10-19T18:41:20+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (c:\slave\workspace\jenkinsTask3and4). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4LWlNsxlC9Pvv3Gb35P7RaBpaqQDhgWaqotsyGlvd6vXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Вызвать цели Maven верхнего уровня  ' marked build as failure
+Finished: FAILURE
