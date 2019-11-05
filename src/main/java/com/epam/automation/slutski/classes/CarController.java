@@ -9,9 +9,9 @@ public class CarController {
                 new Car(16, "audi", "100", 1995, "black", 2000, 1548),
                 new Car(86, "volkswagen", "passat", 2000, "orange", 3000, 7852),
                 new Car(11, "volvo", "s80", 2005, "blue", 4000, 2536),
-                new Car(76, "audi", "100", 1995, "black", 2000, 1598),
-                new Car(36, "volkswagen", "passat", 2000, "orange", 3000, 7752),
-                new Car(41, "volvo", "s80", 2005, "blue", 4000, 2576),
+                new Car(76, "audi", "100", 1995, "black", 2500, 1598),
+                new Car(36, "volkswagen", "passat", 2000, "orange", 3500, 7752),
+                new Car(41, "volvo", "s80", 2005, "blue", 4500, 2576),
                 new Car(11, "porsche", "911", 2010, "red", 44000, 2536)
         };
 

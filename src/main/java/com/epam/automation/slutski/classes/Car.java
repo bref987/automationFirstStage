@@ -99,6 +99,6 @@ public class Car {
                 ", color='" + color + '\'' +
                 ", price=" + price +
                 ", plateNumber=" + plateNumber +
-                '}';
+                "}";
     }
 }

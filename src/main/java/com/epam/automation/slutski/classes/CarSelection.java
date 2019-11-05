@@ -18,13 +18,13 @@ public class CarSelection {
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].getMarque() == marque) {
                 countMarques += 1;
-                marquesIndexes += i;
+                marquesIndexes = marquesIndexes + i + "_";
             }
         }
 
         marques = new Car[countMarques];
         for (int i = 0; i < countMarques; i++) {
-            marques[i] = cars[Integer.parseInt(marquesIndexes.split("")[i])];
+            marques[i] = cars[Integer.parseInt(marquesIndexes.split("_")[i])];
         }
         return marques;
     }
@@ -37,13 +37,13 @@ public class CarSelection {
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].getModel() == model) {
                 countModels += 1;
-                modelsIndexes += i;
+                modelsIndexes = modelsIndexes + i + "_";
             }
         }
 
         models = new Car[countModels];
         for (int i = 0; i < countModels; i++) {
-            models[i] = cars[Integer.parseInt(modelsIndexes.split("")[i])];
+            models[i] = cars[Integer.parseInt(modelsIndexes.split("_")[i])];
         }
         return models;
     }
@@ -56,13 +56,13 @@ public class CarSelection {
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].getManufactureYear() == year) {
                 countCarsOfSetYear += 1;
-                carsOfSetYearIndexes += i;
+                carsOfSetYearIndexes = carsOfSetYearIndexes + i + "_";
             }
         }
 
         carsOfSetYear = new Car[countCarsOfSetYear];
         for (int i = 0; i < countCarsOfSetYear; i++) {
-            carsOfSetYear[i] = cars[Integer.parseInt(carsOfSetYearIndexes.split("")[i])];
+            carsOfSetYear[i] = cars[Integer.parseInt(carsOfSetYearIndexes.split("_")[i])];
         }
         return carsOfSetYear;
     }
@@ -75,15 +75,15 @@ public class CarSelection {
 
         for (int i = 0; i < models.length; i++) {
             int realExploitationPeriod = Year.now().getValue() - models[i].getManufactureYear();
-            if (realExploitationPeriod  > exploitationYears) {
+            if (realExploitationPeriod > exploitationYears) {
                 countUsedModelCars += 1;
-                usedModelCarsIndexes += i;
+                usedModelCarsIndexes = usedModelCarsIndexes + i + "_";
             }
         }
 
         usedModelCars = new Car[countUsedModelCars];
         for (int i = 0; i < countUsedModelCars; i++) {
-            usedModelCars[i] = models[Integer.parseInt(usedModelCarsIndexes.split("")[i])];
+            usedModelCars[i] = models[Integer.parseInt(usedModelCarsIndexes.split("_")[i])];
         }
         return usedModelCars;
     }
@@ -97,14 +97,14 @@ public class CarSelection {
         for (int i = 0; i < manufactureYearCars.length; i++) {
             if (manufactureYearCars[i].getPrice() > price) {
                 countSetYearWithHigherSetPriceCars += 1;
-                setYearWithHigherSetPriceCarsIndexes += i;
+                setYearWithHigherSetPriceCarsIndexes = setYearWithHigherSetPriceCarsIndexes + i + "_";
             }
         }
 
         carsOfSetYearWithHigherSetPrice = new Car[countSetYearWithHigherSetPriceCars];
         for (int i = 0; i < countSetYearWithHigherSetPriceCars; i++) {
             carsOfSetYearWithHigherSetPrice[i] =
-                    manufactureYearCars[Integer.parseInt(setYearWithHigherSetPriceCarsIndexes.split("")[i])];
+                    manufactureYearCars[Integer.parseInt(setYearWithHigherSetPriceCarsIndexes.split("_")[i])];
         }
         return carsOfSetYearWithHigherSetPrice;
     }
@@ -113,6 +113,6 @@ public class CarSelection {
     public String toString() {
         return "CarSelection{" +
                 "cars=" + Arrays.toString(cars) +
-                '}';
+                "}";
     }
 }
